@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #a3c6e9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #a0e7e5;
+    border-bottom: 2px solid #a7d4b5;
+}
+header:hover {
+    background-color: #95e1d3;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid white;
+}
+
+
+section {
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 1.5rem auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #122636;
+    margin-bottom: 1rem;
+}
+
+
+ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+
+
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    background-color: #fce1e4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-color: #adeeec;
+    
+}
+#contact p a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+.btn {
+    margin: 5px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #b4f8c8;
+    color: #333;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #94bebd;
+    font-weight:bold ;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #a0e7e5;
+    margin-top: 1rem;
+}
